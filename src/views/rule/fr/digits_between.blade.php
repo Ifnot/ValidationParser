@@ -1,0 +1,1 @@
+<p>Le champ sous validation doit avec une longueur comprise entre <em>min</em> et <em>max</em>.</p>

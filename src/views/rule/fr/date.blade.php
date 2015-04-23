@@ -1,0 +1,1 @@
+<p>Le champ sous validation doit être une date valide selon la fonction PHP <code>strtotime</code>.</p>

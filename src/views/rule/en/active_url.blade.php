@@ -1,0 +1,1 @@
+<p>The field under validation must be a valid URL according to the <code class=" language-php">checkdnsrr</code> PHP function.</p>

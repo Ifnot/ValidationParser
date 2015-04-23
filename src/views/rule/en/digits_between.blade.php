@@ -1,0 +1,1 @@
+<p>The field under validation must have a length between the given <em>min</em> and <em>max</em>.</p>

@@ -1,0 +1,1 @@
+<p>The field under validation must match the <em>format</em> defined according to the <code class=" language-php">date_parse_from_format</code> PHP function.</p>

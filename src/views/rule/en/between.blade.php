@@ -1,0 +1,1 @@
+<p>The field under validation must have a size between the given <em>min</em> and <em>max</em>. Strings, numerics, and files are evaluated in the same fashion as the <code class=" language-php">size</code> rule.</p>

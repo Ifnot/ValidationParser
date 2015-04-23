@@ -1,0 +1,1 @@
+<p>The field under validation must be a string type.</p>

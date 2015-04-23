@@ -1,0 +1,1 @@
+<p>Le champ sous validation peut contenir des caractères alpha-numériques, ainsi que des tirets <code>-</code> et des underscores <code>_</code>.</p>

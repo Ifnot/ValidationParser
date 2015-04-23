@@ -1,0 +1,1 @@
+<p>Le champ sous validation doit correspondre au format <em>format</em> défini, en accord avec la fonction PHP <code>date_parse_from_format</code>.</p>

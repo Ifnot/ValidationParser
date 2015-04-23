@@ -1,0 +1,1 @@
+<p>Le champ sous validation doit avoir un champ de confirmation de type <code>foo_confirmation</code>. Par exemple, si votre champ sous validation est <code>password</code>, un champ <code>password_confirmation</code> doit être présent et avoir la même valeur.</p>

@@ -1,0 +1,1 @@
+<p>The field under validation must be a value preceding the given date. The dates will be passed into the PHP <code class=" language-php">strtotime</code> function.</p>

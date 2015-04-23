@@ -1,0 +1,1 @@
+<p>Le champ sous validation doit être présent <em>seulement si</em> l'un des autres champs spécifiés sont présents.</p>

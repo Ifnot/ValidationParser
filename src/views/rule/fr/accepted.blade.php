@@ -1,0 +1,1 @@
+<p>Le champ sous validation doit être <em>yes</em>, <em>on</em>, ou <em>1</em>. Ceci est utile pour tester l'acceptation des Conditions Générales d'utilisation ou de vente par exemple.</p>

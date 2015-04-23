@@ -1,0 +1,1 @@
+<p>The file under validation must be an image (jpeg, png, bmp, or gif)</p>

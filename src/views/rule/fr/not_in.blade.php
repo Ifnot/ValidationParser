@@ -1,0 +1,1 @@
+<p>Le champ sous validation ne doit pas être inclus dans la liste de valeurs données.</p>

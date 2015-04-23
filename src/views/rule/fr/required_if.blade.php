@@ -1,0 +1,1 @@
+<p>Le champ sous validation doit être présent si le champ <em>field</em> est égale à la valeur <em>value</em>.</p>

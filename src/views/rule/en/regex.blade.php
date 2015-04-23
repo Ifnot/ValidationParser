@@ -1,0 +1,2 @@
+<p>The field under validation must match the given regular expression.</p>
+<p><strong>Note:</strong> When using the <code class=" language-php">regex</code> pattern, it may be necessary to specify rules in an array instead of using pipe delimiters, especially if the regular expression contains a pipe character.</p>

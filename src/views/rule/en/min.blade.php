@@ -1,0 +1,1 @@
+<p>The field under validation must have a minimum <em>value</em>. Strings, numerics, and files are evaluated in the same fashion as the <a href="#rule-size"><code class=" language-php">size</code></a> rule.</p>

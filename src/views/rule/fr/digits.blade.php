@@ -1,0 +1,1 @@
+<p>Le champ sous validation doit être un <em>numérique</em> et doit avoir la longueur exacte de <em>value</em>.</p>

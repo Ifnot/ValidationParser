@@ -1,0 +1,1 @@
+<p>Le <em>champ</em> donné doit être différent du champ sous validation.</p>

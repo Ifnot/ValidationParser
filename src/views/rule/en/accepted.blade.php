@@ -1,0 +1,1 @@
+<p>The field under validation must be <em>yes</em>, <em>on</em>, or <em>1</em>. This is useful for validating "Terms of Service" acceptance.</p>

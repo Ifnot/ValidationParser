@@ -1,0 +1,1 @@
+<p>Le champ sous validation doit avoir une taille entre <em>min</em> et <em>max</em>. Les chaînes de caractères, les nombres et les fichiers sont évalués de la même manière que dans la règle <code>size</code>.</p>
