@@ -3,7 +3,7 @@ Simple Laravel 4 validation rule parser for : auto-generate forms, auto-generate
 
 # Installation
 
-    composer require "ifnot/validationparser"
+    composer require "ifnot/validation-parser"
 
 # Custom usage
 
