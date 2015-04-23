@@ -3,18 +3,19 @@ Simple Laravel 4 validation rule parser for : auto-generate forms, auto-generate
 
 # Installation
 
-   composer require "ifnot/validationparser"
+    composer require "ifnot/validationparser"
 
 # Custom usage
 
 In this example we will call the RuleSet parser with a custom view for rendering an automatic Form.
 
-In the Controller Action / Route, we define witch view using foreach field :
+In the Controller Action / Route, we define witch view using for each field :
 ```php
 Ifnot\ValidationParser\RuleSet::$view = 'my.form.field';
+return View::make('my.form.show');
 ```
 
-In the blade we loop on each RuleSets and bind the property to the RuleSet view.
+In `/view/my/form/show.blade.php` we loop on each RuleSets and bind the property to the RuleSet view.
 ```php
 @foreach([
   "email":"required|email",
@@ -36,8 +37,3 @@ In the RuleSet view `/views/my/form/field.blade.php` (specified before) :
   {{-- Here a ajax loaded json from your table $ruleSet['in']->params[0] and the column $ruleSet['in']->params[1] --}}
 @endif
 ```
-
-The `/views/my/form/field.blade.php` for the example :
-
-```php
-<label>{{ trans('my.form.' . 
