@@ -90,6 +90,6 @@ class RuleSet {
 	 */
 	public function __toString()
 	{
-		return (string) $this->toString()->render();
+		return (string) $this->toString();
 	}
 }
