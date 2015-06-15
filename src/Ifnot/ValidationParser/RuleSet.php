@@ -82,7 +82,7 @@ class RuleSet {
 		return View::make(self::$view, array_merge([
 			'ruleSet' => $this,
 			'rules' => $this->rules
-		], $this->bind));
+		], $this->bind))->render();
 	}
 
 	/**
