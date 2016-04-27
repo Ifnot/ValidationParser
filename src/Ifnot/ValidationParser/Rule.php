@@ -24,11 +24,21 @@ class Rule {
 	}
 
 	/**
-	 * @param $string
+	 * @param $options
 	 */
-	public function __construct($rule)
+	public function __construct($options = [])
 	{
-		list($this->name, $this->params) = $this->extract($rule);
+		if(is_string($options)) {
+			list($this->name, $this->params) = $this->extract($options);
+		}
+		else {
+			if(isset($options['name'])) {
+				$this->name = $options['name'];
+			}
+			if(isset($options['params'])) {
+				$this->params = $options['params'];
+			}
+		}
 	}
 
 	/**
