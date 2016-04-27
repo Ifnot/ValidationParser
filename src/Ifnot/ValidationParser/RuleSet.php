@@ -56,6 +56,23 @@ class RuleSet {
 
 		return false;
 	}
+	
+	/**
+	 *
+	 */
+	public function flattenEach()
+	{
+		foreach($this->rules as $rule) {
+			if($rule->name == 'each') {
+				$this->rules[$rule->params[0]] = new Rule([
+					'name' => $rule->params[0],
+					'params' => array_slice($rule->params, 1)
+				]);
+			}
+		}
+
+		return $this;
+	}
 
 	/**
 	 * @param $rules
