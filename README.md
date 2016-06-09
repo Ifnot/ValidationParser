@@ -1,5 +1,8 @@
 # ValidationParser
-Simple Laravel 4 validation rule parser for : auto-generate forms, auto-generate documentations etc ... from a simple L4 Validation array.
+
+Simple Laravel validation rule parser for : auto-generate forms, auto-generate documentations etc ... from a simple Laravel Validation array.
+
+**Compatible with Laravel 4 and Laravel 5**
 
 # Installation
 
